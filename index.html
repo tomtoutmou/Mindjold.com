@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindjold</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eceff5;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #3b5998;
+            padding: 10px;
+            color: white;
+            font-size: 24px;
+            text-align: left;
+            padding-left: 20px;
+            display: flex;
+            align-items: center;
+        }
+        .header img {
+            height: 60px;
+            margin-right: 10px;
+        }
+        .container {
+            width: 80%;
+            max-width: 1000px;
+            margin: 20px auto;
+            background: white;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .sidebar {
+            width: 200px;
+            float: left;
+            background: #dfe3ee;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .content {
+            margin-left: 220px;
+        }
+        .game-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .game-list li {
+            background: #f7f7f7;
+            padding: 10px;
+            margin-bottom: 5px;
+            border-radius: 3px;
+            display: flex;
+            align-items: center;
+        }
+        .game-list img {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+        }
+        .game-link {
+            font-weight: bold;
+            text-decoration: none;
+            color: #3b5998;
+        }
+        .game-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="https://i.postimg.cc/xCRqx3zx/b537591494d0108912d29a4d02bb0f79-png.png" alt="Mindjold Logo">
+        Mindjold
+    </div>
+    
+    <div class="container">
+        <div class="sidebar">
+            <strong>Menu</strong>
+            <ul>
+                <li>Home</li>
+                <li>Your Games</li>
+                <li>Game Categories</li>
+                <li>Invite Friends</li>
+            </ul>
+        </div>
+        
+        <div class="content">
+            <h2>Newest Games</h2>
+            <ul class="game-list">
+                <li>
+                    <img src="https://i.postimg.cc/DZXDcx4s/images.jpg" alt="Cube Crash Logo">
+                    <a href="https://palbook-palbab.yooco.org/cubecrashmindjold" class="game-link">Cube Crash</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
